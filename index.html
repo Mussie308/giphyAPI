@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <script src="https://use.fontawesome.com/b4ccb25300.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Giphy API</title>
   </head>
   <body>
+    <script src="app.js" charset="utf-8"></script>
 
     <div class="main">
       <header>
@@ -14,12 +16,12 @@
       </header>
 
       <div class="inputs">
-        <input id="inputText" type="text" name="name" value="Search Gifs Here!">
+        <input id="inputText" type="text" name="name" value="cat">
         <input id="subButton" type="button" value="Submit">
       </div>
 
       <div class="listContainer">
-        <div class="gifList">
+        <div id = "gifs" class="gifList">
         </div>
       </div>
 
